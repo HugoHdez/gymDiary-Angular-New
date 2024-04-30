@@ -1,0 +1,10 @@
+/*review later the usage of both classes in html and css (maybe useless)*/
+.app-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+app-login{
+  flex: 1;
+}

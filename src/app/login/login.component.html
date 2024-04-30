@@ -1,0 +1,39 @@
+<main class="justify-content-center container-login">
+  <header>
+    <h1 class="form-title">Login</h1>
+  </header>
+  <div class="have-account">
+    <button class="btn button-not-filled" (click)="redirectToRegister()">I don't have an account</button>
+  </div>
+  <form class="form-container" [formGroup]="loginForm" (ngSubmit)="login()">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" formControlName="email" class="form-control" id="email" name="email"
+             placeholder="Write your email">
+    </div>
+    <div class="alert alert-danger" [hidden]="email.valid || email.pristine">
+      <!--The '?' says that, if index 'required' in email.errors exists, comply with the if condition-->
+      @if (email.errors?.['required']){
+        <span>
+          Please, fill the email field
+        </span>
+      }
+      @if (email.errors?.['email']){
+        <span>
+          Email must be valid
+        </span>
+      }
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" formControlName="password" class="form-control" id="password" name="password" placeholder="Write your password">
+    </div>
+    <div class="alert alert-danger" hidden="">
+      Please, fill the password field
+    </div>
+    <div class="errorMessage"></div>
+    <div class="form-group">
+      <input class="btn button-filled btn-block button-submit-form" (click)="login()" type="submit" value="Login">
+    </div>
+  </form>
+</main>

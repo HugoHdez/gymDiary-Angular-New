@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gymdiary-a12d9": {
+      "hosting": {
+        "gymdiary": [
+          "gymdiary-a12d9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gymdiary-a12d9"
+  }
+}

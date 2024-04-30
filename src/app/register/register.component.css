@@ -1,0 +1,11 @@
+@import "../shared/form-shared-styles.css";
+
+.container-register{
+  width: 32.5em;
+}
+
+.button-next, .button-back{
+  width: 100%;
+}
+
+

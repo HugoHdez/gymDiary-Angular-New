@@ -1,0 +1,34 @@
+/*:host makes reference to the whole component itself*/
+:host{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title{
+  text-align: center;
+  justify-content: center;
+  margin: 1em;
+}
+
+.form-container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.form-group{
+  margin-bottom: 1em;
+}
+
+.have-account{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.button-submit-form{
+  margin-top: 1em;
+  width: 100%;
+}

@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap';
+/*@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons'*/
+
+.button-filled{
+  background-color:  #090b85;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button-filled:hover {
+  color: white;
+  background: #080A45;
+}
+
+.button-not-filled {
+  background-color: white;
+  color: #090b85;
+  transition: background-color 0.3s ease;
+}
+
+.button-not-filled:hover {
+  color: #090b85;
+  border: 1px solid #cccc;
+  background-color: #cccc;
+}
