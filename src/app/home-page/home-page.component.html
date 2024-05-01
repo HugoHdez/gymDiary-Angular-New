@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+</head>
+<body>
+<main>
+  <header class="mainHeader">
+    <h1 id="homePageTitle">Welcome Message, {{ username }}</h1>
+  </header>
+  <section id="motivationalSpeech">
+    This is an example of motivational speech that will change once the user logs into the web
+  </section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-12">
+        <section class="todaysWorkout" routerLink="/diary">
+          <header>
+            <h2 class="defaultH2">Today's workout</h2>
+          </header>
+          <div class="userContentArea" id="centeredContent">
+            <figure id="todaysWorkoutImage">
+              <img id="todayWorkoutImage" src="">
+              <figcaption class="defaultCaption"><strong id="todayWorkout"></strong></figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+      <div class="col-md-6 col-12">
+        <section class="yourProgress" routerLink="/progress">
+          <header>
+            <h2 class="defaultH2">Your progress</h2>
+          </header>
+          <div class="userContentArea">
+            <figure class="progressImage">
+              <img src="../../assets/images/defaultImage.png">
+              <figcaption class="defaultCaption">Progress graphic 1</figcaption>
+            </figure>
+            <figure class="progressImage">
+              <img src="../../assets/images/defaultImage.png">
+              <figcaption class="defaultCaption">Progress graphic 2</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+      <div class="col-md-6 col-12">
+        <section class="yourExercises" routerLink="/exercises">
+          <header>
+            <h3 class="defaultH3">Your Exercises</h3>
+          </header>
+        </section>
+      </div>
+      <div class="col-md-6 col-12">
+        <section class="yourWorkouts" routerLink="/diary">
+          <header>
+            <h3 class="defaultH3">Your Workouts</h3>
+          </header>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

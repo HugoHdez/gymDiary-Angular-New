@@ -1,0 +1,19 @@
+
+*{
+  font-family: Bricolage Grotesque, Arial;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Bricolage Grotesque, serif;
+  font-weight: 700;
+}
+
+.loginRegisterButtons{
+  width: 100%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: right;
+}
+
+

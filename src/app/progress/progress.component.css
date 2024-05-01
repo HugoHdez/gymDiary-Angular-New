@@ -1,0 +1,80 @@
+
+
+
+
+.right-subtitle {
+  margin-top: 50px;
+  margin-bottom: 10px; /* Margen inferior para separar el subtítulo de la imagen */
+  color: black;
+}
+
+.mainHeader{
+  width: 100%;
+  height: 150px;
+  /*Parameters for the background image*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*Display flex with center in justify-content and align items to center the Title of the page*/
+  display: flex;
+  justify-content: center; /*Align horizontally*/
+  align-items: center;    /*Align vertically*/
+}
+
+#progressTitle{
+  color: lightgray;
+}
+.subtitleProgressUnderneath {
+  margin-top: 2em;
+  color: black;
+}
+
+.progressImage {
+
+  width: 55%;
+}
+.small-image {
+  /*Adjust the width as needed*/
+  height: 73%;
+  width: 20%;
+}
+
+
+.progressFooter {
+  margin-top: 6.5em;
+  margin-bottom: 1em;
+}
+
+.subtitle-containerProgress {
+  display: flex;
+  align-items: center;
+  margin-top: 5em;
+  justify-content: center;
+  margin-right: 15em;
+
+
+}
+
+.left-subtitle {
+
+  margin-top: 1em;
+  font-size: 2em;
+
+}
+
+select {
+  width: 20em; /* Adjust width as needed */
+  height: 3em; /* Adjust height as needed */
+  resize: both; /*Horizontal and vertical resizing*/
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  flex:1;
+  width: 100%;
+}

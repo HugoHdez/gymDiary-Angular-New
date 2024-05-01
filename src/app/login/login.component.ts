@@ -31,6 +31,7 @@ export class LoginComponent {
     this.userService.login(this.loginForm.value)
       .then(() => {
         console.log("login success");
+        this.router.navigate(['homePage']);
       })
       .catch(() => {
         console.log("login failed");

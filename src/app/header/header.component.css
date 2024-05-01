@@ -1,0 +1,367 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+*{
+  font-family: Bricolage Grotesque, Arial;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Bricolage Grotesque, serif;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.landingPageHeader{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 22%;
+  padding-left: 2%;
+  color: #080A45;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: left;
+}
+
+.navBar{
+  width: 53%;
+  justify-content: center;
+}
+
+.loginRegisterButtons{
+  width: 100%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.logOutButton{
+  width: 25%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #222684;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.button-filled {
+  background: #080A45;
+  color: white;
+}
+
+.no-filled {
+  background: white;
+  color: #080A45;
+}
+label {
+  line-height: 30px;
+  border-radius: 5px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.sets {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-bottom: 0.5em;
+}
+.repsSet {
+  position: relative;
+  margin-left: 50px;
+
+}
+.imageExerciseByMuscle{
+  margin-top: 2em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-top: -6em;
+}
+
+.dayAndExercise {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restTime {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setsExerciseMuscle{
+  display: flex;
+  flex-direction: column;
+
+}
+.title_home {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+  font-family: Bricolage Grotesque, serif;
+}
+.mid_home {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.specification{
+  margin-top: 100px ;
+  background-color: #F1DDD9;
+  text-align: center;
+}
+.box-spec {
+  padding: 64px 48px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.sp1, .sp2, .sp3, .sp4 {
+  flex-basis: 48%;
+  margin-bottom: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.sp2 {
+  background-color: rgb(216,202,200,0.5);
+}
+.sp4 {
+  background-color: rgb(216,202,200,0.5);
+}
+
+.logoNav{
+  margin: 0 auto;
+  text-align: center;
+}
+.reservedGym {
+  position: absolute;
+  left: 0;
+}
+
+.logo-footer {
+  color: #080A45;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title_login {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.having_account{
+  margin-top: 50px;
+}
+
+.form_login {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 30px;
+  margin-top: 8px;
+}
+.email {
+  margin-top: 40px;
+}
+.password {
+  margin-top: 40px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.defaultMain{
+  flex: 1;
+}
+
+.errorMessage{
+  color: red;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.addExerciseForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name_input {
+  width: 300px; /* Puedes ajustar este valor según sea necesario */
+  height: 40px; /* Puedes ajustar este valor según sea necesario */
+  font-size: 18px; /* Puedes ajustar este valor según sea necesario */
+  margin-top: -2em;
+}
+
+.nameContainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.titleContainer {
+
+
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#inputName {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: -15.5em;
+}
+
+.setFormulary {
+  text-align: left;
+  margin-top: 0.2em;
+}
+
+.titleContainer strong {
+  margin-left:-9em;
+  font-size: 30px; /* Ajusta el tamaño de la fuente del título */
+  margin-bottom: -0.5em;
+  margin-right: 0.5em;
+}
+
+.inputName1 {
+  font-size: 18px; /* Ajusta el tamaño de la fuente del campo de entrada */
+  width: 80%; /* Ajusta el ancho del campo de entrada */
+  height: 40px; /* Ajusta la altura del campo de entrada */
+  margin-bottom: 0.8em; /* Ajusta el margen inferior entre los elementos */
+}
+
+.setsExerciseMuscle {
+  font-size: 30px; /* Ajusta el tamaño de la fuente del formulario */
+}
+
+.addExerciseForm {
+  font-size: 20px; /* Ajusta el tamaño de la fuente del formulario */
+
+}
+
+.inputName2 {
+  margin-top: -0.5em;
+  font-size: 18px; /* Ajusta el tamaño de la fuente del campo de entrada */
+  width: 80%; /* Ajusta el ancho del campo de entrada */
+  height: 40px; /* Ajusta la altura del campo de entrada */
+  margin-bottom: 1em;
+
+
+}
+
+.inputReps {
+  width: 10%;
+  height: 1.5em;
+
+}
+
+.legExtensionImage {
+  margin-left: -2em;
+}
+
+.addNewExercise {
+  width: 40%;
+
+}
+
+.inline {
+  display: inline;
+}
+
+.addSet{
+  margin-top: 1em;
+  width: 20%;
+
+}
+
+.removeSet{
+  margin-top: 1em;
+  width: 20%;
+  height: 10%;
+
+}
+
+.button-login {
+  background-color:  #090b85;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-filled{
+  background-color:  #090b85;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button-login:hover, .button-filled:hover {
+  color: white;
+  background: #080A45;
+}

@@ -1,0 +1,177 @@
+*{
+  font-family: Bricolage Grotesque, Arial;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+@media (max-width: 767.98px) {
+  .titleContainer {
+    margin-left: 5em;
+  }
+  .addExerciseForm {
+    align-items: center;
+  }
+  .selectMuscle{
+    width: 3em;
+    display: inline-block;
+  }
+
+  .add {
+    margin-left: 4em;
+  }
+
+  .inline{
+    display: flex;
+    justify-content: space-between;
+    width: 3em;
+    text-align: center;
+  }
+  .addSet {
+    width: 3em;
+  }
+
+  .legExtensionImage {
+    margin-left: 2em;
+  }
+}
+body{
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+main{
+  flex:1;
+  width: 100%;
+}
+
+.divExercises figcaption {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+#addYourExercise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divExercises {
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.exercises{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#headerExercises{
+  font-family: Bricolage Grotesque, Arial;
+  font-size: 3em;
+}
+
+.pectoral, .pectoral, .espalda, .isquiotibial, .triceps, .biceps,  .hombros, .cuadriceps, .gemelos  {
+  flex-basis: 25%;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+}
+
+.tricepsImg{
+  object-fit: cover;
+}
+
+.triceps{
+  background: white;
+}
+
+.selectMuscle {
+  width: 50%;
+  height: 2em;
+}
+
+#muscleSelection {
+  text-align: left;
+  margin-bottom: 0.5em;
+
+}
+
+.material-symbols-outlined {
+  text-align: left;
+  margin-left: 0.3em;
+}
+
+.align {
+  display: inline-flex;
+  text-align: left;
+
+}
+
+#rightButton {
+  margin-left: 3.5em;
+
+}
+
+.removeEditExercise {
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+
+.small-image {
+
+  width: 100px;
+
+
+}
+
+.exercisesDisplay {
+  align-items: center;
+  display: inline-block;
+
+}
+
+.addYourExercise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addYourExerciseDynamic {
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.addExerciseFormNoInfo {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+#noInfoFormTitle {
+  text-align: left;
+
+}
+
+.inputNameNoInfo {
+  font-size: 18px; /* Ajusta el tamaño de la fuente del campo de entrada */
+  width: 80%; /* Ajusta el ancho del campo de entrada */
+  height: 40px; /* Ajusta la altura del campo de entrada */
+  margin-bottom: 0.8em; /* Ajusta el margen inferior entre los elementos */
+  margin-top: -1em;
+}
+@media only screen and(max-width: 438px){
+}

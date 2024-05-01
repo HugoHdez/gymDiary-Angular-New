@@ -1,0 +1,93 @@
+*{
+  font-family: Bricolage Grotesque, Arial;
+}
+
+body{
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileMainContent{
+  width: 100%;
+  flex: 1;
+}
+
+.profileImgContainer{
+  float: left;    /* Make it the left column */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*Align horizontally*/
+  align-items: center; /*Align vertically*/
+  margin: 2em;
+  width: 33%;
+  border-right: 0.1em solid #cccc
+}
+
+#profilePicture{
+  padding: 1em;
+  width: 23em;
+  height: 23em;
+}
+
+
+.userImportantData{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+#profileHeader{
+  width: 100%;
+  height: 20%;
+}
+
+.defaultH1{
+  font-size: 3em;
+}
+
+.userComplexionData{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  flex: 1;
+}
+
+.userComplexionList{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style-type: none;
+}
+
+.userComplexionList li{
+  padding-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+.userInformation{
+  margin-top: 0.2em;
+}
+
+#accountCredentials{
+  font-size: 2em;
+}
+
+#userPassword{
+  margin-bottom: 1em;
+}
+
+.labelInputGroup{
+  margin-top: 0.70em;
+  font-size: 0.95em;
+}
+
+.labelInputGroup div{
+  margin-right: 1em;
+}
+
+.defaultInput {
+  padding: 0.2em;
+  border-radius: 0.2em;
+  border-width: 0.1em;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile</title>
+</head>
+<body>
+<main class="profileMainContent">
+  <section class="userProfile">
+    <figure class="profileImgContainer">
+      <img id="profilePicture" src="../../assets/images/User%20Icon%20Profile.png" alt="Profile Picture">
+      <figcaption id="changeProfilePicButton">
+        <button class="button-filled">
+          Change Pic
+        </button>
+      </figcaption>
+    </figure>
+    <section class="userImportantData">
+      <header id="profileHeader">
+        <h1 class="defaultH1">
+          Name Surname Surname
+        </h1>
+      </header>
+      <section class="userInformation">
+        <ul class="userComplexionList">
+          <li>Male/Female/Other</li>
+          <li>1,80m/5'11</li>
+          <li>85kg/187lbs</li>
+          <li>23/01/01 (23)</li>
+        </ul>
+      </section>
+      <section class="userInformation">
+        <header id="userMailPassword">
+          <h2 class="accountCredentials">
+            Account credentials
+          </h2>
+        </header>
+        <form class="emailPasswordChange">
+          <div class="labelInputGroup">
+            <label for="email"> Email </label>
+            <input class="defaultInput" type="email" id="email" value="user@email.com">
+          </div>
+          <div id="userPassword">
+            <div class="labelInputGroup">
+              <div>
+                <label for="password"> Change Password </label>
+                <input class="defaultInput" type="password" id="password">
+              </div>
+              <div>
+                <label for="confirmPassword"> Confirm Password </label>
+                <input class="defaultInput" type="password" id="confirmPassword">
+              </div>
+            </div>
+          </div>
+          <button class="button-filled">Confirm Changes</button>
+        </form>
+      </section>
+    </section>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.defaultFooter{
+  width: 100%;
+  padding-top: 1%;
+}
+
+.allRightsReserved{
+  width: 49%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 1%;
+}
+
+.socialMediaIcons{
+  width: 49%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 1%;
+}
+
+.iconImage{
+  width: 1.15em;
+  height: 1.15em;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}

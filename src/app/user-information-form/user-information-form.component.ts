@@ -9,6 +9,7 @@ import { UserService } from "../user.service";
 })
 export class UserInformationFormComponent {
   uid: string = '';
+  username: string = '';
   constructor(private formBuilder: FormBuilder, private router: Router,
               private userService: UserService, private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
@@ -44,6 +45,7 @@ export class UserInformationFormComponent {
     this.userService.createUserFirestore(this.uid, this.formValues.username.value, this.formValues.firstName.value,
       this.formValues.lastName.value, this.formValues.birthdate.value, this.formValues.gender.value,
       this.formValues.height.value, this.formValues.weight.value);
+    this.username = this.formValues.username.value;
   }
 
 }

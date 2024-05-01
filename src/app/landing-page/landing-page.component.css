@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Bricolage Grotesque, serif;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.logo {
+  width: 22%;
+  padding-left: 2%;
+  color: #080A45;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: left;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.button-filled {
+  background: #080A45;
+  color: white;
+}
+
+.no-filled {
+  background: white;
+  color: #080A45;
+}
+label {
+  line-height: 30px;
+  border-radius: 5px;
+}
+.bold {
+  font-weight: bold;
+}
+.title_home {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+  font-family: Bricolage Grotesque, serif;
+}
+.mid_home {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.specification{
+  margin-top: 100px ;
+  background-color: #F1DDD9;
+  text-align: center;
+}
+.box-spec {
+  padding: 64px 48px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.sp1, .sp2, .sp3, .sp4 {
+  flex-basis: 48%;
+  margin-bottom: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.sp2 {
+  background-color: rgb(216,202,200,0.5);
+}
+.sp4 {
+  background-color: rgb(216,202,200,0.5);
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,6 +1,9 @@
 <div class="app-container">
-  <header> <!-- Load here the header of the website --> </header>
+  <div *ngIf="isLandingPage()">
+    <app-landing-page-header></app-landing-page-header>
+  </div>
+  <app-header *ngIf="!isSpecialPage()"></app-header>
   <router-outlet/>
-  <footer> <!-- Load here the footer of the website --> </footer>
+  <app-footer></app-footer>
 </div>
 
