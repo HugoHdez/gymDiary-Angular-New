@@ -1,0 +1,9 @@
+@import "../shared/form-shared-styles.css";
+
+.container-user-information{
+  width: 32.5em;
+}
+
+h5{
+  font-weight: 500;
+}
