@@ -12,12 +12,14 @@ import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { UserInformationFormComponent } from './user-information-form/user-information-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    UserInformationFormComponent
   ],
   imports: [
     BrowserModule,

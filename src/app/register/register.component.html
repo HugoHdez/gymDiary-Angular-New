@@ -5,66 +5,19 @@
   <div class="have-account">
     <button class="btn button-not-filled" (click)='redirectToLogin()'>I already have an account</button>
   </div>
-  <form class="form-container" [formGroup]="registerForm" (ngSubmit)="register()">
-    @if (!showAccountInformation){
-      <div class="personal-information" [@fadeInOut]>
-        <div class="form-group">
-          <label for="first-name">First Name</label>
-          <input type="text" formControlName="firstName" class="form-control" id="first-name" placeholder="Write your name">
-        </div>
-        <div class="form-group">
-          <label for="last-name">Last Name</label>
-          <input type="text" formControlName="lastName" class="form-control" id="last-name" placeholder="Write your last name">
-        </div>
-        <div class="form-group">
-          <label for="birthdate">Birthdate</label>
-          <input type="date" formControlName="birthdate" class="form-control" id="birthdate">
-        </div>
-        <div class="form-group">
-          <label for="gender">Gender</label>
-          <select formControlName="gender" class="form-select" id="gender" aria-label="Default select">
-            <option selected disabled>Select a gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="height">Height(cm)</label>
-          <input type="number" formControlName="height" class="form-control" id="height" placeholder="Write your height">
-        </div>
-        <div class="form-group">
-          <label for="weight">Weight(kg)</label>
-          <input type="number" formControlName="weight" class="form-control" id="weight" placeholder="Write your weight">
-        </div>
-        <div class="form-group">
-          <button class="btn button-filled btn-block button-next" type="button" (click)="changeBetweenPersonalAndAccountInfo()">
-            Next
-          </button>
-        </div>
+  <form class = "form-container" [formGroup]="registerForm" (ngSubmit)="register()">
+    <div class="account-information">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" formControlName="email" class="form-control" id="email" placeholder="Write your email">
       </div>
-    }
-    @else {
-      <div class="account-information" [@fadeInOut]>
-        <div class="form-group">
-          <label for="user-name">Username</label>
-          <input type="text" formControlName="username" class="form-control" id="user-name" placeholder="Write your username">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" formControlName="email" class="form-control" id="email" placeholder="Write your email">
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" formControlName="password" class="form-control" id="password" placeholder="Write your password">
-        </div>
-        <div class="form-group">
-          <button class="btn button-not-filled btn-block button-back" (click)="changeBetweenPersonalAndAccountInfo()">
-            Go back
-          </button>
-          <input class="btn button-filled btn-block button-submit-form" (click)="register()" type="submit" value="Create account">
-        </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" formControlName="password" class="form-control" id="password" placeholder="Write your password">
       </div>
-    }
+      <div class="form-group">
+        <input class="btn button-filled btn-block button-submit-form" type="submit" value="Create account">
+      </div>
+    </div>
   </form>
-<main>
+</main>
