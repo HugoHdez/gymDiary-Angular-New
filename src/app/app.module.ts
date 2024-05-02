@@ -27,6 +27,8 @@ import { LogOutButtonComponent } from './log-out-button/log-out-button.component
 import { NavComponent } from './nav/nav.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProgressComponent } from './progress/progress.component';
+import {AngularFireStorageModule} from "@angular/fire/compat/storage";
+
 
 @NgModule({
   declarations: [
@@ -60,7 +62,8 @@ import { ProgressComponent } from './progress/progress.component';
     provideFirestore(() => getFirestore()),
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AngularFireStorageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

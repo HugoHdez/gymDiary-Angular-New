@@ -82,6 +82,10 @@ body{
   font-size: 0.95em;
 }
 
+#confirmPassword {
+  margin-top: 0.5em;
+}
+
 .labelInputGroup div{
   margin-right: 1em;
 }
@@ -90,4 +94,17 @@ body{
   padding: 0.2em;
   border-radius: 0.2em;
   border-width: 0.1em;
+  margin-left: 1em;
 }
+
+.success-message {
+  margin-top: 1em;
+  color: green;
+}
+
+.no-success-message {
+  margin-top: 1em;
+  color: red;
+}
+
+

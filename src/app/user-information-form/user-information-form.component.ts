@@ -44,8 +44,17 @@ export class UserInformationFormComponent {
   registerUserInfo(){
     this.userService.createUserFirestore(this.uid, this.formValues.username.value, this.formValues.firstName.value,
       this.formValues.lastName.value, this.formValues.birthdate.value, this.formValues.gender.value,
-      this.formValues.height.value, this.formValues.weight.value);
-    this.username = this.formValues.username.value;
+      this.formValues.height.value, this.formValues.weight.value)
+      .then((uid) => {
+        console.log("register user information success");
+        this.router.navigate(['login']);
+      })
+      .catch(() => {
+        console.log("register user information failed");
+      });
+
   }
+
+
 
 }
