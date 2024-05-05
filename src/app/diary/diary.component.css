@@ -87,7 +87,15 @@ main {
   font-weight: bold;
   top: 18em;
   left: 43%;
-  position: absolute;
+  text-align: center;
+
+
+}
+
+#weekPlanTitle {
+  margin-top: -1em;
+  padding-bottom: 1em;
+  color: #080A45;
 }
 
 .divWeekPlan {
@@ -178,7 +186,5 @@ main {
   .dayText{
     top: 20%;
   }
-  .weekPlan {
-    left: 30%;
-  }
+
 }
